@@ -1,0 +1,30 @@
+/* PHASE 3: Layout */
+.content{
+  position: relative;
+  width: 880px;
+  border: 1px solid #aaa;
+  margin: 0 auto;
+  min-height: 1000px;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.content-sidebar{
+  width: 240px;
+  min-height: inherit;
+}
+
+.content-main{
+  width: 660px;
+}
+
+.content-gutter{
+  display: block;
+  position: absolute;
+  width: 1px;
+  left: 240px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #ccc;
+  z-index: 1;
+}

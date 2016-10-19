@@ -1,0 +1,45 @@
+/* PHASE 5: Cats */
+
+.cover-photo {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.cover-photo-image{
+  z-index: -3;
+}
+
+.cover-photo-text{
+  position: absolute;
+  top: 235px;
+  left: 240px;
+  color: white;
+  font-size: 36px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  line-height: 1;
+
+}
+
+.cover-photo-button{
+  position: absolute;
+  padding: 8px 16px;
+  width: 120px;
+  top: 235px;
+  right: 20px;
+  color: black;
+  z-index: 1;
+  background-color: #eee;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-weight:700;
+  text-align: center;
+  text
+}
+
+.cover-photo-button:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
